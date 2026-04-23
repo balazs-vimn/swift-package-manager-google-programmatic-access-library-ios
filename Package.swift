@@ -18,7 +18,7 @@ import PackageDescription
 
 let package = Package(
   name: "GoogleProgrammaticAccessLibrary",
-  platforms: [.iOS(.v11)],
+  platforms: [.iOS(.v15)],
   products: [
     .library(
       name: "GoogleProgrammaticAccessLibrary",
@@ -28,8 +28,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "GoogleProgrammaticAccessLibrary",
-      url: "https://imasdk.googleapis.com/downloads/pal/ios/pal-ios-v3.1.1.zip",
-      checksum: "eb1dfc83934ae0a692794d1ce456bcb82c47fffe530e1dc60811970174cbad59"
+      url: "https://imasdk.googleapis.com/downloads/pal/ios/pal-ios-v3.2.3.zip",
+      checksum: "8fe83c4494a2b9a03a721eaddb82c4aa1c977f28fcbaa5ca14894e95bcbfb4d5"
     )
   ]
 )
